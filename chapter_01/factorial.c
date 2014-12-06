@@ -7,7 +7,7 @@ int factorial(int n)
 {
   int result = 1;
   int i;
-  for(i=1; i<=n; i++)
+  for(i = 1; i <= n; i++)
     {
       result *= i;
     }
@@ -18,7 +18,7 @@ int main() {
 
   int n;
   printf("\nEnter an integer to find factorial : ");
-  scanf("%d",&n);
+  scanf("%d", &n);
 
   printf("%d! = %d\n", n, factorial(n));
   
