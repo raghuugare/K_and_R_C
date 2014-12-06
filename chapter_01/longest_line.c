@@ -7,34 +7,34 @@ void copy(char from[], char to[]);
 
 int main() {
 
-	int len, max;
-	char line[MAX_LINE_SIZE];
-	char longest_line[MAX_LINE_SIZE];
+  int len, max;
+  char line[MAX_LINE_SIZE];
+  char longest_line[MAX_LINE_SIZE];
 
-	max = 0;
+  max = 0;
 
   while((len = get_line(line, MAX_LINE_SIZE)) > 0) {
-  	if(len > max) {
-  		max = len;
-  		copy(line, longest_line);
-  	}	
+    if(len > max) {
+      max = len;
+      copy(line, longest_line);
+    }	
   }
 
   if(max > 0) {
-  	printf("The longest line I got has %d chars. And it is given below:\n|%s|\n", max, longest_line);
+    printf("The longest line I got has %d chars. And it is given below:\n|%s|\n", max, longest_line);
   } else {
-    	printf("No lines given...! :(\n");
+    printf("No lines given...! :(\n");
   }
 
   return 0;
 }
 
 int get_line(char buffer[], int limit) {
-	int i, c;
+  int i, c;
 
-	for(i = 0; i<(limit-1) && (c=getchar())!= EOF && c!= '\n'; i++) {
+  for(i = 0; i<(limit-1) && (c=getchar())!= EOF && c!= '\n'; i++) {
     buffer[i] = c;
-	}
+  }
   
   buffer[i] = '\0';
   
