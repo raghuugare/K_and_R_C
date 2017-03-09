@@ -3,7 +3,7 @@
 
 My explorations &amp; exercises as I went about working through the classic **[The C Programming Language](http://www.amazon.com/C-Programming-Language-2nd-Edition/dp/0131103628)** by [Brian Kernighan][brian_kernighan] &amp; [Dennis Ritchie][dennis_ritchie]. 
 
-Hope this encourages my fellow developer-friends also to 'dive into' (the) [**C**][c_wiki] ! :)
+Hope this encourages my fellow developers also to 'dive into' (the) [**C**][c_wiki] ! :)
 
 : ~ **Raghu Ugaré**
 
