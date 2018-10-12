@@ -10,9 +10,9 @@ int main()
 
   printf("%10s%9s\n", " Fahrenheit", "Celsius");
 
-  for(fahr = LOWER; fahr<=UPPER; fahr = fahr+STEP)
+  for(fahr = LOWER; fahr <= UPPER; fahr = fahr + STEP)
   {  
-    printf(" \t%3.0f   %6.2f\n", fahr, (5.0/9.0)*(fahr-32));
+    printf(" \t%3.0f   %6.2f\n", fahr, (5.0 / 9.0) * (fahr - 32));
   }
 
   int value_of_EOF = EOF;
